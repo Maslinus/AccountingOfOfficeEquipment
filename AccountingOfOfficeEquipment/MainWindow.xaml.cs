@@ -19,6 +19,7 @@ namespace AccountingOfOfficeEquipment
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ViewModal();
         }
     }
 }
