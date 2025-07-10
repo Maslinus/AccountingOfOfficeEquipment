@@ -1,4 +1,17 @@
-﻿<Application x:Class="AccountingOfOfficeEquipment.App"
+﻿<!--
+Файл ресурсов приложения.
+
+Определяет:
+- Запуск приложения с окна MainWindow
+- Глобальные ресурсы: значения перечислений для XAML (через ObjectDataProvider)
+
+Используется:
+- Для привязки DataGridComboBoxColumn к Enum
+
+Пример использования:
+    ItemsSource="{Binding Source={StaticResource EquipmentTypeValues}}"
+-->
+    <Application x:Class="AccountingOfOfficeEquipment.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">

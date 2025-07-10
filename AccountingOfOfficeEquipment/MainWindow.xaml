@@ -1,4 +1,21 @@
-﻿<Window x:Class="AccountingOfOfficeEquipment.MainWindow"
+﻿<!--
+Главное окно приложения.
+
+Отображает:
+- Таблицу с данными об оборудовании
+- Кнопки для добавления и удаления
+- Выпадающие списки (ComboBox) для полей Статус и Тип
+
+Привязка:
+- DataContext -> MainViewModel
+- ItemsSource -> Equipment
+- SelectedItem -> SelectedEquipment
+
+Пример поведения:
+- Нажатие Add добавляет новую строку
+- Нажатие Remove удаляет выбранную
+-->
+<Window x:Class="AccountingOfOfficeEquipment.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="clr-namespace:AccountingOfOfficeEquipment.ViewModels"
